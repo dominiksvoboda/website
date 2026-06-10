@@ -9,7 +9,7 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy:   #1a2744;
+      --navy:   #0d1b3e;
       --gold:   #b8963e;
       --slate:  #f4f6f9;
       --mid:    #6b7a99;
@@ -32,7 +32,7 @@
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
-      background: rgba(255,255,255,0.95);
+      background: rgba(13,27,62,0.97);
       backdrop-filter: blur(8px);
       border-bottom: 1px solid #e8ecf2;
       z-index: 100;
@@ -47,7 +47,7 @@
       font-family: 'EB Garamond', Georgia, serif;
       font-size: 1.1rem;
       font-weight: 500;
-      color: var(--navy);
+      color: var(--white);
       text-decoration: none;
     }
 
@@ -58,12 +58,12 @@
       font-weight: 500;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: var(--mid);
+      color: rgba(255,255,255,0.7);
       text-decoration: none;
       transition: color 0.2s;
     }
 
-    .nav-links a:hover { color: var(--navy); }
+    .nav-links a:hover { color: var(--white); }
 
     /* ── SECTIONS ── */
     section { padding: 80px 2rem; max-width: var(--max); margin: 0 auto; }
@@ -177,7 +177,7 @@
     }
 
     .btn-primary {
-      background: var(--navy);
+      background: var(--gold);
       color: var(--white);
     }
 
